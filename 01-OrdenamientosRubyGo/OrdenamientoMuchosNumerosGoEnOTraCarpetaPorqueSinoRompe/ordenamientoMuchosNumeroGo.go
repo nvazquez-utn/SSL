@@ -24,7 +24,7 @@ func main() {
 
 	// 3. Ejecutamos el algoritmo interno (pdqsort)
 	sort.Ints(numeros)
-	fmt.Printf("Números ordenados: %v\n", numeros) 
+
 	// 4. Calculamos el tiempo transcurrido
 	tiempoTotal := time.Since(tiempoInicio)
 
