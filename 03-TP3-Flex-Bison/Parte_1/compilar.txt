@@ -1,0 +1,4 @@
+bison -d micro.y
+flex micro.l
+gcc micro.tab.c lex.yy.c -o micro
+./micro ok.m
